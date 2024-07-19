@@ -1,0 +1,13 @@
+body {background: rgb(73,254,125);
+    background: linear-gradient(110deg, rgba(73,254,125,1) 0%, rgba(147,218,197,1) 94%);}
+.maindiv {display:flex;}
+.maindiv1 {width: 400px; height: 500px; background-color: burlywood; border-radius: 5px; margin-left: 160px; margin-top: 100px;}
+.maindiv2 {width: 400px; height: 500px; background-color:  burlywood; border-radius: 5px; margin-left: 160px; margin-top: 100px; }
+
+.div2 {width: 100px; height: 30px; background-color: blueviolet; padding:auto; margin-top: 15px; margin-left: 20px;border: 30pt;}
+
+.div4 {background-image: url(hadphone.jpg); height: 500px; padding: auto; margin-left: 80px; margin-top: 30px;}
+.div1 {width: 100px; height: 30px; background-color: blueviolet; padding:auto; margin-top: 15px; margin-left: 20px;border: 30pt;}
+
+.div3 {background-image: url(hadphone.jpg); height: 500px; padding: auto; margin-left: 80px; margin-top: 30px;}
+

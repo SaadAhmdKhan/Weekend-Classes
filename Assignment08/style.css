@@ -1,0 +1,12 @@
+body {background-color: bisque;}
+.parent {display: flex; height: 350px; width: min-content;}
+.box {height: 500px; width: 600px; padding-left: 20px;margin-top: 50px;}
+.maindiv {height: max-content; width: 500px;}
+.maindiv2 {height: 300px; width:800px ; background-color:;margin-left: 20px;}
+.box2 {height: 20px; width:800px; padding-bottom: 20px; margin-top: 50px;}
+.box3 {height: 20px; width: 800px; padding-bottom: 70%; margin-left: 10px;}
+
+
+.parent2 {display: flex; height: 350px; width: min-content;} 
+
+.parent3 {display: flex; height: 350px; width: min-content;} 

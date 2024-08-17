@@ -1,0 +1,228 @@
+@font-face {
+    font-family: 'myFont';
+    src: url(Assets/Fonts/Lexend_Tera/LexendTera-VariableFont_wght.ttf);
+}
+
+
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.main-nav {
+    background-color: #ececec !important;
+}
+
+.login-btn {
+    background: #007E85;
+    border: 0px;
+    text-wrap: nowrap;
+    font-family: 'myFont';
+
+}
+
+.login-btn:hover {
+    background: #026368;
+}
+
+.signup-btn {
+    color: #007E85;
+    background-color: transparent;
+    border: none;
+    text-wrap: nowrap;
+    font-family: 'myFont';
+
+}
+
+.signup-btn:hover {
+    color: #007E85;
+    background-color: transparent;
+    border: none;
+
+}
+
+
+.nav-menu-items {
+    font-family: 'myFont';
+
+}
+
+/* Custom Styles */
+
+body {
+    background-color: #ececec;
+}
+
+/* Section with Background Image */
+.content-section {
+    padding: 60px 0;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #91adb309;
+}
+
+/* Text Shadow Effect */
+.text-shadow {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+}
+
+/* Wrapper for the Doctor Image with Background */
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(Assets/Images/doctorbg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* Doctor Image */
+.doctor-image {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+/* Image Drop Shadow */
+.shadow-effect {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.footer p {
+    margin: 0;
+    color: #333;
+}
+
+/* Custom Styles for Image Section */
+.image-section .custom-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+/* Custom Styles for Product Info Section */
+.product-info-section .card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info-section .profile-image-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.product-info-section .profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.product-info-section .card-title {
+    font-size: 1.25rem;
+}
+
+.product-info-section .card-text {
+    margin-bottom: 1rem;
+}
+
+.product-info-section h6 {
+    font-size: 0.875rem;
+}
+
+/* Custom Styles for Trusted Companies Section */
+.trusted-companies-section .logo-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.trusted-companies-section .logo {
+    height: 40px;
+    width: auto;
+    max-width: 100px;
+}
+
+/* Custom Styles for Newsletter Section */
+.newsletter-section .subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-section .email-input {
+    border-radius: 20px;
+    padding: 10px 15px;
+    width: 250px;
+    border: 1px solid #ced4da;
+}
+
+.newsletter-section .subscribe-button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.newsletter-section .subscribe-button:hover {
+    background-color: #0056b3;
+}
+
+/* Custom Styles for Footer */
+
+.footer {
+    background-color: #343a40;
+}
+
+.footer .footer-logo {
+    width: 100px;
+}
+
+.footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}

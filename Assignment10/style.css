@@ -171,7 +171,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 .newsletter-section .email-input {
@@ -191,12 +191,12 @@ body {
     cursor: pointer;
 }
 
+
 .newsletter-section .subscribe-button:hover {
     background-color: #0056b3;
 }
 
 /* Custom Styles for Footer */
-
 .footer {
     background-color: #343a40;
 }
@@ -225,4 +225,25 @@ body {
 
 .footer ul li a:hover {
     text-decoration: underline;
+}
+
+.whatsapp-icon {
+    width: 40px; /* Adjust size as needed */
+    margin-top: 10px; /* Space above the icon */
+}
+
+.whatsapp-link {
+    display: inline-block; /* Ensure the link wraps the icon */
+    margin-top: 10px; /* Space from the text */
+}
+
+.whatsapp-link:hover .whatsapp-icon {
+    opacity: 0.8; /* Slightly dim on hover */
+}
+
+.whatsapp-text {
+    margin-top: 10px;
+    font-size: 1rem; /* Adjust font size */
+    color: #ffffff;
+    text-align: center;
 }

@@ -134,8 +134,9 @@
                                                   // IF STATEMENTS 
 
 
-var x = prompt("Where Does The Pop live?")
-   if (x === "vatican"){
-    alert("Correct!")
+// var x = prompt("Where Does The Pop live?")
+//    if (x === "vatican"){
+//     alert("Correct!")
 
-   }
+//    }
+

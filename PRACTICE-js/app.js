@@ -421,98 +421,235 @@
 // var usernum =+prompt('Please Enter Your Usernumber')
 // alert('Your Number Is ' + usernum)
 
-var usernum = +prompt('Please Enter Any Number ' , 5)
+// var usernum = +prompt('Please Enter Any Number ' , 5)
+
+// document.write(`
+
+//              <h1> Table Off ${usernum}   </h1> <br /> <br />
+//              <p> ${usernum} * 1 = ${usernum * 1}</p>
+//              <p> ${usernum} * 2 = ${usernum * 2}</p>
+//              <p> ${usernum} * 3 = ${usernum * 3}</p>
+//              <p> ${usernum} * 4 = ${usernum * 4}</p> 
+//              <p> ${usernum} * 5 = ${usernum * 5}</p>
+//              <p> ${usernum} * 6 = ${usernum * 6}</p>
+//              <p> ${usernum} * 7 = ${usernum * 7}</p>
+//              <p> ${usernum} * 8 = ${usernum * 8}</p>
+//              <p> ${usernum} * 9 = ${usernum * 9}</p>
+//              <p> ${usernum} * 10= ${usernum * 10}</p>
+
+// `)
+
+// var checknum = +prompt('Please Enter Num Too Check')
+
+// if (checknum %3 === 0){
+//         alert('The Num Is Divisible By 3')
+// }
+
+// else{
+//     alert('The Num Is Not Divisible By 3')
+// }
+
+// var num1 = +prompt('Enter Number One')
+// var num2 = +prompt('Enter Num Two')
+// var operater = prompt('Enter Operator')
+
+// if (operater === '+'){
+//         alert(num1 + num2)
+// } 
+// else if (operater === '-'){
+//         alert(num1 - num2)
+// }
+
+// else if (operater === '*'){
+//         alert(num1 * num2)
+// }
+// else{
+//         alert('Nothing')
+// }
+
+// var name1 = ""
+// console.log(Boolean(name1))
+//  0 , "" , null , undefined , NaN
+
+// var city = prompt ('Enter Your City' , 'Lahore')
+//     educationlevel = prompt ('Enter Education Level' , 'Matric')
+
+// if (city === 'Karachi' || educationlevel === 'bachelors'){
+//         alert("You Can Get Admission")
+// }
+
+// else{
+//         alert('You Can not Get Admission')
+// }
+
+
+// var time = +prompt('Enter Time')
+//     weight = +prompt('Enter Weight')
+//     usercity = prompt("Enter Your City")
+
+// if(time < 5 || weight > 10 || usercity==='Karachi'){
+//         alert('Execution Of If Block')
+// }
+// else{
+//         alert("Execution  Off Else Block")
+// }
+
+
+// var city = prompt ('Enter Your City' , 'Lahore')
+//     educationlevel = prompt ('Enter Education Level' , 'Matric')
+//     age = +prompt("Enter your Age")
+
+// if(city === 'karachi' || age > 18 && educationlevel === 'bachelors'){
+//         alert("You are eligible")
+// }
+// else{
+//    alert('You are not eligible')
+// }
 
-document.write(`
+// var email = prompt("Please enter your email adress")
+//     password = prompt("please enter your password")    
 
-             <h1> Table Off ${usernum}   </h1> <br /> <br />
-             <p> ${usernum} * 1 = ${usernum * 1}</p>
-             <p>
 
 
+//     // SignUp
+// var registeremail = prompt('Please Register With Email')
+//     registerpassword = prompt('Create Password For Your account')
 
+// alert('Registered Successful')
 
+// var loginemail = prompt('Please Enter Email Too Login')
+//     loginpassword = prompt("Enter Password Off Your Account")
+    
+// if(loginemail === registeremail && loginpassword === registerpassword){
+//         alert('Successful Login')
+// }
+// else {
+//         alert('invalid account details')
+// }
 
+// **************************** Nested If Else ***********************
 
+// var usercity = prompt('Please Enter Your City')
+// if(usercity === 'karachi'){
+//     var age = +prompt ('Please Enter Your Age');
+//     if (age > 18) {
+//         var education = prompt('Please Enter Your Education Level')
+//         if(education === 'bachelors'){
+//         alert('You Are Eligible')}
+//         else{
+//                 alert('Not Eligible -  Education Criteria not matched') 
+//         }
+// }
+//  else{ alert("Not Eligible - You are under age"); }
+// }
+// else{
+//         alert("Not Eligible - You are not from karachi");
+// }
 
+// var loginemail = prompt('Please enter your email too login')
 
+// if (loginemail === 'admin@mail.com'){
+//     var loginpassword = prompt('Please enter your password')
+//     if(loginpassword === 'admin123'){
+//         var reenterpass = prompt('Please Re-Enter Your Password')
+//         if(reenterpass === "admin123"){
+//                 alert('login Success') }
+//                 else{
+//                   alert('Your Reenter password is incorrect')
+//                 }
+     
+//     }else{
+//         alert('invalid password')
+//     }
 
 
 
+// }
+// else{
+//         alert('invalid email adress')
+// }
 
 
+// var a = 'c'
+// alert(a.charCodeAt())
 
+// var userinput = prompt('')
 
+// if (userinput.charCodeAt() >=48 && userinput.charCodeAt() <=57){
 
+// }
 
+// var city = "karachi"
+//     city = 20
+//     city = true
+// console.log(city);
 
-`)
+// var cities = ['karachi' , 'lahore' , 'isb' , 'multan' , 20 , true , 'peshawar' , [1,3,4]]
+// alert(cities.length)
 
+// alert(cities[6])
 
+// var pets = []
 
+// pets[20]= 'puppy'
+// pets[3]= 'cat'
+// pets[20]= 'dog'
 
+// console.log(pets.length -1)
+// console.log(pets[20])
 
+// var students = ['ali' , 'anas' , 'rehan' , 'usman' , 'amir']
 
+// console.log(students)
 
+// students.pop() //it will remove the last element of an array , e.g in above example it will remove 'amir'
+// students.push('saad')//it will add the last element of an array , e.g in above example it will add 'saad
 
+// console.log(students)
 
 
+// var pets = ['cat' , 'dog' , 'puppy' , 'fish']
+// console.log(pets)
+// pets.shift() // it will remove the first element of an array
+// console.log(pets)
+// pets.unshift('cow') //it will add the first element of an array
+// console.log(pets)
 
+// var userinput = prompt('Enter Character')
 
+// if(userinput.charCodeAt() >= 65 && userinput.charCodeAt() <= 90) {
+//         alert('Character UPPERCASE')
+//     }
 
+// var students = ['mark' , 'john' , 'ali']
 
+// var score1 = prompt('Marks of '  + students[0])
+// var score2 = prompt('Marks of '  + students[2])
+// var score3 = prompt('Marks of '  + students[2])
 
 
+// var percentage = [((score1 / 500) * 100) , ((score2 / 500) * 100)  , ((score3 / 500) * 100)]
 
+// document.write(`
+//     Score of ${students[0]} is ${score1} and Percentage is ${percentage[0]}
+//     `)
 
+// var person = 'saad'
+//     arr = ['saad' , 'ali' , 'wahab' , 'hamza']
+//     students = [] // length is 0
 
+// students[students.length] = 'ali'   //students[0] = 'ali' => length is 1 students = ['Ali']
+// students[students.length] = 'saad'   // students[1] = 'Anas'
 
+// console.log(students)
+// console.log(students.length)
 
 
+// var pets = ['Cat' , 'Dog' , 'Fish' , 'Goat']
+// var returnType = pets.pop() // return the deleted value
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(returnType)
+// console.log(pets)
 
 
 

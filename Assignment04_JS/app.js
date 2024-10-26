@@ -6,7 +6,7 @@
 // var students =new Array();
 
 // // Question 3
-// var str =["sarim","Pakistani","Undregraduated","SSUET"];
+// var str =["saad","Pakistani","Undregraduated","SSUET"];
 
 
 // // Question 4

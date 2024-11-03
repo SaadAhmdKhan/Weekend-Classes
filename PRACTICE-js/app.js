@@ -680,6 +680,23 @@
 // var newnum = orgnlnum1 + 7
 // alert(newnum)
 
+
+                                                  // 28-09-2024
+
+// var person = 'sualeh'
+// var arr = ['ali' , 'john' , 'sualeh' , 'anas']
+//     students = []            // length is 0
+
+// students[students.length] = 'ali'          //students[0] = 'ali' => length is 1 students = ['Ali']
+// students[students.length] = 'anas'          // students[1] = 'Anas'
+
+// console.log(students)
+// console.log(students.length)
+
+
+
+
+
                                             // MATH EXPRESSIONS FAMILIAR OPERATERS
 
 // var popularnum = 4

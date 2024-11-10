@@ -1,0 +1,20 @@
+select {
+    height: 50px;
+    width: 500px;
+    border-color: #22702c;
+    border-radius: 5px;
+  }
+  
+  input {
+    height: 50px;
+    width: 500px;
+    border-color: #22702c;
+    border-radius: 5px;
+  }
+  
+  .ok {
+    height: 50px;
+    width: 1000px;
+    border-color: #22702c;
+    border-radius: 5px;
+  }

@@ -694,6 +694,464 @@
 // console.log(students.length)
 
 
+// var pets = ['cat' , 'dog' , 'fish' , 'parrot']
+// var returnType = pets.pop()         // return type off the pop is deleted value
+// console.log(returnType)
+// console.log(pets)
+
+
+// var pets = ['cat' , 'dog' , 'fish']
+// var returnVal = pets.push('parrot') // return type is given the length off array
+// console.log(returnVal)
+// console.log(pets)
+
+// var students = ['ali' , 'anas' , 'john' , 'saad']
+// students.shift()
+// console.log(students)
+// students.unshift('wahab')
+// console.log(students)
+
+// var student = ['saad' , 'wahab' , 'anas' , 'ali' , 'hassan']
+// var returnVal = student.shift()   //return typ of the shift is deleted value
+// console.log(returnVal)
+// console.log(student)
+
+// var student = ['saad' , 'wahab' , 'anas' , 'ali' , 'hassan']
+// var returnVal = student.unshift()   // return type is given the length off array
+// console.log(returnVal) 
+// console.log(student)
+
+                    
+
+       /*      /*//*/*///*///*/      //delete any element from any index
+       /*      /*//*/*///*///*/      // add any element at any index
+       /*      /*//*/*///*///*/      // update any element from any index 
+                                    
+// var students = ['saad' , 'wahab' , 'ali' , 'hassan' , 'hamza' , 'asad' , 'imran']
+// students.splice(2 , 0 , 'sirsualeh') // Not Delete Any Element and Add sir at Second Index
+// console.log(students)
+
+// var students = ['saad' , 'wahab' , 'ali' , 'hassan' , 'hamza' , 'asad' , 'imran']
+// students.splice(4 , 2 , 'sharjeel')   // Delete 2 Values from That Index and Update Value on that Index
+// console.log(students)
+
+// var students = ['saad' , 'wahab' , 'ali' , 'hassan' , 'hamza' , 'asad' , 'imran']
+//     elemintaedstudents = students.slice(5)  /// delete the first five element 
+// console.log(elemintaedstudents)
+// console.log(students)
+
+// var colors = ['Red' , 'Green' , 'Yellow' , 'Blue' , 'Purple' , 'Pink' , 'Black']
+
+// var desiredindex = +prompt('please tell your desired index to target') 
+//     desiredcolor = +prompt('please let me know the color what should you add')
+// colors.splice(desiredindex , 0 , desiredindex)
+
+// var desiredIndex = +prompt('Please Tell Your Desired Index to Add Value')
+// var desiredColor = prompt('Please name the color you wanna add')
+// colors.splice(desiredIndex , 0 , desiredColor )
+// document.write(colors)
+// console.log(colors)
+
+
+// document.write
+// var desiredIndex = +prompt('Please Tell Your Desired Index to Target')
+// var count = +prompt('How many values you wanna delete from that index')
+// colors.splice(desiredIndex , count)
+// document.write(colors)
+
+// var sentence = 'an apple a day keep doctor away' 
+//     appVal = sentence.slice(3 , 15)    // string word extract
+//     console.log(appVal)
+
+// var word = ['This' , 'Is' , 'My' , 'Dog']
+//     updated = word.join(' ')  // how to join your arr into string
+//     document.write(updated)
+
+// var color = ['red' , 'yellow' , 'blue']
+//     reverse = color.reverse()
+//     console.log(reverse)
+
+// var students  = [] // JS Literal Notation  array making format
+
+// var colors = new Array // Object Notation array making format
+
+// console.log(colors)
+// console.log(students)
+
+// var colors = ['red' , 'yellow']
+
+// var a = colors.push('black')
+
+// console.log(a)
+
+// var word = 'Deed'
+//     update = word.split('').reverse().join('')
+//     console.log(update)
+
+
+
+// var cities = ['Karachi' , 'Lahore' , 'Islamabad' , 'Multan' , 'Peshawar' , "XYZ" , "aBC"]
+
+
+// var copyArr = cities.slice(-1)
+// var copyArr = cities.slice(2 , 4)   // second num is concern too length
+
+
+// console.log('Original Array ==>' , cities)
+// console.log('Duplicated Array ==>' , copyArr)
+
+// var arr = ["Ali", "Amir", "Anas", "Shahmeer" , "Saad" , "Sualeh" , "XYZ"];
+// var returnVal = arr.splice(2 , 3 , 'sharjeel' )    //return the deleted value if insert the value   
+// console.log(returnVal)      
+// console.log(arr)
+
+
+
+// var num = [6,4,0,8,2,1]
+// var sortedArr = num.sort()
+// console.log(sortedArr)
+
+
+// var word = 'ali'
+// console.log("Actual Word =>" ,  word)
+// var palindrome = word.split('').reverse().join('')
+// console.log("After Palindrome  =>" , palindrome)
+
+
+// var userWord = prompt('Enter Any word to check Palindrome')
+// var palindrome = userWord.split('').reverse().join('')
+
+// if(userWord === palindrome) {
+//     alert('It is Palindrome')
+// } else {
+//     alert('It is not Palindrome')
+// }
+
+
+// var students = ['ali' , 'anas' , 'farman' , 'john']
+// document.write(students + "<br />  <br />")
+// var fifoval = students.shift()        //first in first out
+// document.write(`Out <br /> ${fifoval}<br /><br />`)
+// fifoval = students.shift()
+// document.write(`Out <br /> ${fifoval}`)
+
+
+// ********************************** For Loop ***************************
+
+// 0 <= 5  ===> TRUE
+// 1 <= 5 ===> TRUE
+// 2 <= 5 ===> TRUE
+// 3 <= 5 ===> TRUE
+// 4 <= 5 ===> TRUE
+// 5 <= 5 ===> TRUE
+// 6 <= 5 ===> FALSE
+
+// document.write("Saylani Welfare  <br />")
+
+// for (var i=  0 ;i > 5; i++){
+//         document.write()
+// }
+
+// var tablenum = 5 
+//     tablelength = 15
+
+// for(var i= 1; i<=tablelength; i++) {
+//       document.write(`${tablenum} * ${i} = ${tablenum * i}  <br /> <br /> `)
+// }
+
+// var cities = ['Karachi' , 'Lahore' , 'Multan' , 'Islamabad','Karachi' , 'Lahore' , 'Multan' , 'Islamabad', 'Karachi' , 'Lahore' , 'Multan' , 'Islamabad']
+
+// for(var i = 0; i<3; i++){
+//     document.write(`${cities [i]} <br />`)
+// }
+
+// for(var i=0; i<20; i++){
+//     document.write(i)
+//     if(i===10){
+//         break
+//     }
+// }
+
+
+// document.write('<br /> Counting  <br />')
+// for(var i = 1; i <= 20; i++) {
+//     document.write(i)
+// }
+
+// for(var i=20; i>=1; i--){
+//     document.write(i)
+// }
+
+
+// for(var i = 1; i <= 20; i++) {
+//     if(i % 2 === 0) {
+//         document.write(i)
+//     } 
+// }
+
+
+
+// document.write('<br /> Odd Number  <br />')
+// for(var i = 1; i <= 20; i++) {
+//     if(i % 2 !== 0) {
+//         document.write(i)
+//     } 
+
+// }
+
+// var cities = ['karachi' , 'islamabad' , 'lahore' , 'peshawar']
+
+// for(var i = 0; i < cities.length; i++){
+//         if(cities[i] === 'lahore') {
+//          console.log('milgya')
+//          break;
+//         } 
+        
+//         else{
+//                 console.log('nhi mila')   }
+// }
+
+// var  cities = ['Karachi ' , 'Islamabad' , 'Lahore' , 'Multan' , 'Peshawar']
+
+// var milGya = "no" 
+
+
+// for(var i = 0; i < cities.length; i++) {
+//     if(cities[i] === 'sindh') {
+//         milGya = "yes"
+//     }
+// }
+
+// if(milGya === "yes") {
+//     console.log('Lahore Milgya')
+// } else {
+//     console.log('Nahi Mila')
+// }
+
+
+// 3 < 5 ===> TRUE => 3
+// 4 < 5 ===> TRUE => 4
+// 5 < 5 ===> FALSE
+
+// for(var i = 0; i<=5; i++){
+//         {console.log(i)}
+// }
+
+
+// var cities = ["karachi", "lahore", "peshawar", "multan"];
+// // var foundIt = false
+// var milGya = 'nahi'
+// for (var i = 0; i < cities.length; i++) {
+//   if (cities[i] === "peshawar") {
+//     console.log("Found it");
+//     break;
+//   } else {
+//     console.log("Not Found");
+//   }
+
+//     if(cities[i] === 'quetta') {
+//        milGya = 'han'
+//     }
+// }
+
+// if(milGya === 'han') {
+//         console.log('Found It')
+//     } else {
+//         console.log('Not Found !')
+    
+//     }
+
+// For Loops Nested nested array
+
+// var arr = [['sualeh' , 'farooq'],
+//           ['ali' , 'ahmed'],
+//           ['zain', 'mustafa']
+//  ]
+
+
+// for(var i = 0; i<arr.length; i++){
+//         for(var j = 0; j<arr[i].length; j++){
+//                 console.log(arr[i][j])
+//         }
+// }
+
+// var firstname = ['syed' , 'sharjeel' , 'saad' , 'josep']
+// var lastname = ['wahab' , 'ahmed' , 'ahmed' , 'john']
+// var fullname = []
+
+// for(var i = 0; i < firstname.length; i++){
+//         for(var k = 0; k < lastname.length; k++){
+//           fullname.push(firstname[i] + lastname[k])
+//         }
+// }
+
+// console.log(fullname)
+
+
+// ARRAYS
+
+// var citiesArr = ['Karachi' , 'ISB' , 'LAHORE' , 'MULTAN']
+
+// console.log(citiesArr[0])
+// console.log(citiesArr[1])
+// console.log(citiesArr[2])
+// citiesArr [10] = "peshawar"   //array updation
+// console.log(citiesArr)
+
+// var returnVal = citiesArr.pop()
+// console.log(citiesArr)
+// console.log(returnVal)
+// var returnpush = citiesArr.push('peshawar')
+//     console.log(citiesArr)
+//     console.log(returnpush)
+
+
+// console.log(citiesArr)
+// citiesArr.shift()
+// console.log(citiesArr)
+
+// citiesArr.unshift('peshawar')
+// console.log(citiesArr)
+
+// Delete any element from any index
+// Add Element at Any Index
+// Update Element at Any Index
+
+// citiesArr.splice(1 ,3)
+// citiesArr.splice(1, 3 , 'abc' , 'xyz' , 'pop')
+// var returnsplice = citiesArr.splice(2, 0 ,'abc')
+// console.log(returnsplice)
+
+// console.log(citiesArr)
+
+// var citiesArr = ['Karachi' , 'ISB' , 'LAHORE' , 'MULTAN' ,'Peshawar' , 'Sawat']
+// console.log(citiesArr)
+// var copyArr = citiesArr.slice(-2)
+// console.log(copyArr)
+
+// 0 < 10  === TRUE
+// 1 < 10 === TRUE
+
+// var usernumber = +prompt("Enter Number For Multiplication")
+// var tablelength = +prompt("Length Of that table")
+// for(var i = 1; i <= tablelength ; i ++){
+//       document.write(`${usernumber} * ${i} = ${usernumber *i} <br />`)
+// }
+
+// for(var i = 1; i <= 10; i++) {
+//     console.log(i)
+// }
+
+// var items = ['cake' , 'apple' , 'cookie' , 'chips']
+// var useritem = prompt("Enter The Product Name You Want")
+// var available = "no"
+
+// for(var i = 0; i <items.length; i++ ){
+//         if(items[i] === useritem )
+//                 {document.write(`${useritem} is available <br />`) 
+// }
+
+// else{
+//         document.write
+//         (`Sorry ${useritem} Isn't Available`)
+//         break;
+// }
+//  if(items [i] === useritem){
+//         available ='han'
+//         break;
+//  }
+// }
+// if (available === 'han') {
+//   document.write(`${useritem} is Available <br />`);
+// } else {
+//   document.write(`Sorry ! ${useritem} is Not Available <br />`)
+// }
+
+// let score = 85;
+// if (score >= 90) {
+//     console.log("Grade A");
+// } else if (score >= 80) {
+//     console.log("Grade B");
+// } else {
+//     console.log("Grade C");
+// }
+
+// var items = ['cake' , 'apple' , 'cookie' , 'chips' , 'pie']
+//     items.splice(2, 1 , 'mango')
+//     console.log(items)
+// //     returnitems = items.splice(2 ,1 , 'mango') 
+//      console.log(returnitems)
+
+// var useremail = prompt('Enter Your Email')
+// if (useremail === 'admin@gmail.com'){
+//     var password = prompt('Enter Your Password')
+//     if (password === '123'){
+//       var verified = false; //true
+//       if(verified){
+//         alert('succesful login')}
+//       else{alert('Account Is Not Verified')}
+//     }
+//     else{alert("Incorrect Password")}
+// }
+// else{alert('Email Is Not Valid / Unavailable')}
+
+// var arr = ['cake' , 'pineapple' , 'Donut']
+// for (var i = 0; i<arr.length; i ++){
+//         if(arr [i] === "Donut" ){
+         
+//                 console.log("Items Is Available On The List")
+//                 break;
+//         }
+        
+//         else{console.log('The Item Is Not Available On The List')}
+// }
+
+// var userask = prompt("Please Enter Your Name")
+
+// AdMIn
+// ADMIN
+//aDMin
+// admin , Admin , they both are not equal , Case Sensative
+
+// if(userask.toLocaleLowerCase() === 'admin'){
+//         alert("Hello Admin")
+// }
+// if(userask.toUpperCase() === 'ADMIN'){
+//         alert('hello Admin')
+// }
+
+// var fruits = "an apple a day"
+// var extractword = fruits.slice(2 , 8)
+// alert(extractword)
+
+
+// var sentence = 'A Boy Go to his School Everyday Because Going School is Compulsory'
+//     eraseword = sentence.indexOf('School')
+// console.log(eraseword)
+//     updateword = sentence.lastIndexOf('School')
+//     console.log(updateword)
+
+// var productid = +prompt('Enter Product Id')
+//     cartarr   = [1 , 12]
+// if(cartarr.indexOf(productid) !== -1 ){
+//    alert("Product is Already in the Cart")      
+// }else{
+//             alert('Product Added to the cart sucessfully')
+//         }
+          
+// // var firstName = 'John Doe'                  // char code
+// // console.log(firstName.charAt(7))
+// var text = "There Is A Book Related To The World War II , World War II"
+// // var updatedtext = text.replace("World War II", "the Second World War") // Just Replace the First Word 
+// var updatedword = text.replaceAll("World War II", "the Second World War")  // Replaces All the Words
+// // console.log(updatedtext)
+// console.log(updatedword)
+
+
+// var percentage =  65.9
+// alert(Math.round(percentage)) // .1 - .4 , Revert back to original Number  -> 65.1  -> 65
+// alert(Math.floor(percentage)) // Always Revert back to  original Number  
+// alert(Math.ceil(percentage)) // Always Increment in the  original Number  
 
 
 

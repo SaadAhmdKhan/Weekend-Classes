@@ -1153,6 +1153,302 @@
 // alert(Math.floor(percentage)) // Always Revert back to  original Number  
 // alert(Math.ceil(percentage)) // Always Increment in the  original Number  
 
+// var username = prompt('Please Enter Your Name').toUpperCase()
+
+// // AdMiN  , ADMIN , aDMIN ,  ==> admin  => ADMIN 
+
+// if(username === 'admin'){
+//         window.location.href = "profile.html"
+// }
+
+// var sentence = 'An Apple A Day Keep Doctor Away'
+// var docword = sentence.slice(0,8)        // slice copy arr , string words etc
+// alert(docword)
+
+// var sentence = 'An Apple A Day Keep Doctor Away'
+// var indexofapple = sentence.lastIndexOf('saylani')
+// alert(indexofapple)
+
+// Apple -> Mango
+// var sentence = 'An Apple A Day Keep Doctor Away Apple'
+// var updaetesentence = sentence.replaceAll('Apple' , 'Mango')  // replace all the occurence
+// var updaetesentence = sentence.replace('Apple' , 'Banana')
+// console.log(updaetesentence)
+
+// var num1 = 2.2
+// alert(Math.ceil(num1))           // increment then round num
+
+// var num2 = 2.2                   // round num
+// alert(Math.floor(num2))
+
+// var num = 8.8                    // increment then round num
+// alert(Math.round(num))
+
+// var randomNum = Math.random() * 8
+// console.log(randomNum.toFixed())
+
+
+// Will Ignore All the Decimal Places 
+// var num1 = '5.6'
+// console.log(typeof(num1))
+// console.log(num1)
+
+
+// var num2 = parseInt(num1)
+// console.log(typeof(num2))
+// console.log(num2)
+
+                                                //convert string into number
+// Will Keep All the Decimal Places 
+// var num1 = '5.6'
+// console.log(typeof(num1))
+// console.log(num1)
+
+// var num2 = parseFloat(num1)
+// console.log(typeof(num2))
+// console.log(num2)
+
+// function GreetUser(){
+//         alert("Hello User")
+// }
+
+// var randomnum = Math.floor(Math.random() * 6) + 1
+// // var randomnum = Math.random() * 4
+// console.log(randomnum.toFixed(0))
+
+
+// var num = '35.5'
+// console.log(num)
+// console.log(typeof(num))
+// var num2 = parseInt(num)
+// console.log(num2)
+// console.log(typeof(num2))
+// var num3 = parseFloat(num)
+// console.log(num3)
+// console.log(typeof(num3))
+
+// var randomvalues ='ABCSWHDAUERM!@#$%^&^%$#32145278175asandjhrwdasuasdmumasas'
+// var randompass = ""
+// console.log(randomvalues.length)
+
+
+// for(var i = 0; i < 10 ; i++){
+//         var randomnum = Math.floor (Math.random() * randomvalues.length)
+//         randompass += randomvalues [randomnum]
+// }
+// console.log(randompass)
+
+// startsWith , 
+// endsWith
+// includes
+
+
+
+/////// ***************************************  DATE *****************************
+
+// GetTheCurrentDate()
+
+// var todaydate = new Date().toString()
+// console.log(todaydate)
+// var update = todaydate.slice(0 , 15)
+// console.log(update)
+
+// var days = ['sun' ,'mon' , 'tue' , 'wed' , 'thurs' , 'friday' , 'sat' ] 
+// var today = new Date().getDay() 
+// console.log(days[today])
+
+// var month = ["January","February","March","April","May","June","July",
+//    "August","September","October","November","December"]
+// var currentmonth = new Date().getMonth()
+// console.log(month[currentmonth])
+
+
+ // var todayDate = new Date()  
+ // console.log(todayDate)
+
+// //28-Feb-2025
+//     var todayDate  = new Date('13 March , 2005')
+//     console.log(todayDate)
+
+// var firstramadan = new Date('09 , December , 2000').getTime()
+// var today = new Date().getTime()
+// var difference = firstramadan - today
+// var daycalculate = difference / (1000 * 60 * 60 * 24 * 30)
+// console.log(Math.round(daycalculate))
+ 
+
+// Normal Function 
+
+// function GetTheCurrentDate()
+// {
+//         var today = new Date()
+//         alert(today)
+// }
+
+// var today = new Date()
+// console.log(today)
+// console.log(typeof(today))
+
+// var today = new Date().getDay()
+// var currentmonth = new Date().getMonth()
+
+// var month = [
+//   "January",
+//   "February",
+//   "March",
+//   "April",
+//   "May",
+//   "June",
+//   "July",
+//   "August",
+//   "September",
+//   "October",
+//   "November",
+//   "December",
+// ];
+
+// var days = [
+//   "Sunday",
+//   "Monday",
+//   "Tuesday",
+//   "Wednesday",
+//   "Thursday",
+//   "Friday",
+//   "Saturday",
+// ];
+
+// console.log(currentmonth)
+// console.log(month[currentmonth])
+
+// console.log(days[today])
+
+// console.log(new Date().getTime())
+
+
+// var todayDate = new Date().getTime()
+
+// var ramadandate = new Date('Feb , 28 , 2025')
+// var currentYear = new Date().getFullYear()
+
+// var differencedate = ramadandate.getTime() - todayDate;
+// var days = differencedate / (1000  * 60 * 60 * 24)
+
+// console.log(Math.round(days))
+// console.log(differencedate)
+
+// console.log(sumofftwo(20,20))    //hoisting
+ 
+// var org ;
+
+
+// console.log(org)
+// console.log(saylaniclass)
+
+// // // Normal Function
+
+// function sumofftwo(a,b){
+//     var result = a+b
+//     return result
+//     // parameters
+//     var percentage = Math.round((marks/ 1000 ) * 100)
+//     return percentage
+// }
+
+
+
+// // // Arrow Function
+
+// var subofftwo = (a,b) => {
+//         var subtraction = a-b
+//         return subtraction
+// }
+// console.log(subofftwo(100,20))
+
+// var org = 'saylani'
+// var saylaniclass = 'weekend'
+
+
+// function compute(num1,num2,operater){
+//         var result = ""
+//         if(operater === '+'){
+//           result = num1 + num2
+//         }
+//         else if(operater === "-"){
+//          result = num1 - num2
+//         }
+//         else if(operater === "*"){
+//           result = num1 * num2
+//         }
+//         else if(operater === "/"){
+//           result = num1 / num2
+//         }
+//         else{
+//                 'Please enter a valid operater'
+//         }
+//         return result
+// }
+
+
+// var num1 = +prompt('Enter Number 1')
+// var num2 = +prompt("Enter Number 2")
+// var operater = prompt("enter Your Operater")
+
+// console.log(compute(num1,num2,operater)
+// )
+
+
+
+
+
+
+
+
+// sumofftwo()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                                             // MATH EXPRESSIONS FAMILIAR OPERATERS

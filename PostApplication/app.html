@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+</head>
+
+<body>
+
+   
+    <div class="container-fluid">
+
+        <div class="p-3 bg-success rounded-3">
+            <h1 class="text-white text-center">Post App</h1>
+        </div>
+
+        <div class="d-flex justify-content-between mt-4 p-3 main-container ">
+            <div class="card postCard" style="width: 18rem; padding: 10px;">
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Title</label>
+                        <input type="email" class="form-control" id="title" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Description</label>
+                        <input type="text" class="form-control" id="desc">
+                    </div>
+                    <div class="mb-3  bgImagesContainer">
+                        <img class="bg-image" onclick="selectedimg('bg-1.jpg')" src="bg-1.jpg" alt="">
+                        <img class="bg-image" onclick="selectedimg('bg-2.avif')" src="bg-2.avif" alt="">
+                        <img class="bg-image" onclick="selectedimg('bg-3.jpeg')" src="bg-3.jpeg" alt="">
+                        <img class="bg-image" onclick="selectedimg('bg-4.avif')" src="bg-4.avif" alt="">
+                    </div>
+                    <div class="mb-3 ">
+                        <button onclick="submitPost()" type="button" class="btn btn-success w-100">POST</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="listingContainer" class="listing-container">
+
+
+            </div>
+        </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="popper.js"></script>
+    <script src="bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- events -->
+
+
+     <!-- <button onclick="clickfunc()">Hello</button> -->
+
+    <!-- <img onmouseout="StopCar(event)" onmouseover="ChangeCar(event)" width="450" height="350" src="assets/car-stand.png" /> -->
+    
+    <!-- <div onmouseover="checkDiv()"  style="width: 200px ; height: 200px; border: 2px solid red;"  > </div>     -->
+
+<!-- 
+    <img id="bulb" src="assets/bulb-off.PNG" alt="offbulb"/>
+    <div>
+        <button onclick="turnon()">Turn On The Bulb</button>
+        <button onclick="turnoff()">Turn Off The Bulb</button>
+    </div> -->
+     <!-- <input type="text" onkeyup="checkcode()"> -->
+
+    <!-- had tale logic -->
+
+     <script>
+
+        var arr = ['H' , 'T']
+        var randomNum = Math.floor(Math.random * arr.length)  // 0 , 1
+
+
+        var userName1 = document.getElementById('user1').value  // Ali
+        var user1Selection = document.getElementById('user1Selection').value // H
+        var userName2 = document.getElementById('user2').value // Anus
+
+
+        if(user1Selection === arr[randomNum]) { 
+
+            document.write(`  ${userName1} is Winner  `)
+        } else {
+            document.write(`${userName2} is winner`)
+        }
+
+
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>

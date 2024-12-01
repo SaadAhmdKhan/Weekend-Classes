@@ -96,3 +96,20 @@
 // }
 
 // GeneraterandomPass()
+
+// function onclickfunc(){
+//     alert('Hello World')
+// }
+
+// function playingwithdom(){
+//     console.log(event.target.parentNode.parentNode.children.length)
+// }
+
+// var listingcontainer = document.getElementById('listingContainer')
+// console.log(listingcontainer.hasAttribute('class'))           // return true if attr is available otherwise return false
+// console.log(listingcontainer.getAttribute('class'))
+// listingcontainer.setAttribute('class', 'listingcontainer-js')             //set sttribute too set id and class through java in html
+
+
+
+

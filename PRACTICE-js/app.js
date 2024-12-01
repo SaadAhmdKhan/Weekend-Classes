@@ -1393,7 +1393,7 @@
 // var num2 = +prompt("Enter Number 2")
 // var operater = prompt("enter Your Operater")
 
-// console.log(compute(num1,num2,operater)
+// document.write(compute(num1,num2,operater)
 // )
 
 
@@ -1403,45 +1403,204 @@
 
 
 
-// sumofftwo()
+// sumOfTwo()
 
 
 
+// function sumOfTwo () {
+//     var output = 200
+// console.log(output)
+
+// }
+
+// switch cases === if else
+
+// var day = 'Monday'
 
 
 
+// switch(day) {
+//        case'Monday':
+//         alert('Today Is first day Off Week')
+//         break;
+//         case 'Tue' :
+//         alert("today Is second day off week")
+//         break;
+//         default:
+//                 alert('Today Is Funday')
+// }
+
+// var maindiv = document.getElementById('main')
+// var seconddiv = document.getElementsByClassName('seconddiv')
+// var thirddiv = document.querySelector(".thirddiv")
+// var heading = document.getElementsByTagName('h1')
+
+// console.log(seconddiv)
+// console.log(heading)
+
+// var mainDiv = document.querySelector('#main')
+// console.log(mainDiv)
+
+// function addpara() {
+//         var mainDiv = document.querySelector('#main')
+//         mainDiv.innerHTML = `
+    
+//     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repudiandae maxime facilis aliquid doloribus, culpa ducimus voluptas voluptatibus laboriosam, rem sunt consectetur harum eaque quisquam repellat sapiente vero reprehenderit architecto. </p>
+    
+//         <ul>
+//                 <li>  HTML </li>
+//                  <li>  CSS </li>
+//                  <li>  JAVASCRIPT </li>
+//         </ul>  `
+// }
+
+// function submitform(){
+//         var firstname = document.getElementById('FirstName')
+//         var Secondname = document.getElementById('SecondName')
+        
+//         console.log(`First Name ${firstname.value}`)
+//         console.log(`Second Name ${Secondname.value}`)
+// }
+
+// used to redirect the html page from the  javascript
+// window.location.href = "dashboard.html"
+
+// var name = "jOHN";
+
+// name = "Ali"; // update
+
+// function submituser(){
+//         var firstname = document.getElementById('firstname')
+//         var secondname = document.getElementById('secondname')
+//         var gender = document.getElementsByName('gender')
+//         var hobbies = document.getElementsByName('hobbies')
+
+//         var genderselection;
+//         var hobbiesarr = [];
+//         for(var i = 0; i<hobbies.length; i++){
+//                 if(hobbies[i].checked){
+//                         hobbiesarr.push(hobbies[i].value)
+//                 }
+//         }
+
+//         console.log("The Selected Hobbies Are")
+//         console.log(hobbiesarr)
+    
+//         for(var i = 0; i<gender.length; i++){
+//             if(gender[i].checked){
+//                 genderselection = gender[i].value;
+//             }
+//         }
+       
+//         console.log(genderselection)
+// }
+
+
+// function checkinput(){
+//         console.log(event.target.value)
+//         // if(!event.target.value){
+//         //   event.target.style.border = "2px solid red"
+//         // }
+//         if(!event.target.value.trim() === "" ){
+//                 event.target.style.border = "2px solid red"
+//               }
+
+
+// }
+
+// function expandtext(){
+//         var fullpara = 
+//         'adipisicing elit. Alias vitae, voluptas et explicabo unde quos laboriosam vel qui quaerat ea omnis repellendus dignissimos ab nulla, tenetur molestiae. Distinctio, dicta vitae'
+//         var shortpara = 'Lorem ipsum, dolor sit amet consectetur';
+//         var seelink = document.getElementById('seelink')
+//         var paragraph = document.getElementById('para')
+//         if(seelink.innerText === 'See More'){
+//                 paragraph.innerText = fullpara
+//                 seelink.innerText = 'See Less'
+//         }
+//         else{
+//                 paragraph.innerText = shortpara
+//                 seelink.innerText = 'See More'
+//         }
+
+// }
+
+// var checkchild = document.childNodes[1].childNodes
+// console.log(checkchild)
+
+// var div = document.createElement('div')
+// var heading = document.createElement('h1')
+// var para = document.createElement('p')
+
+// var headingtext = document.createTextNode('Saylani Mass It Training')
+// var paratext = document.createTextNode('Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda provident sit pariatur modi illum inventore quae dicta ad, distinctio harum placeat optio officia nisi minus quod, ducimus, quis iste!')
+
+// heading.appendChild(headingtext)
+// para.appendChild(paratext)
+
+// div.appendChild(heading)
+// div.appendChild(para)
+
+// document.body.appendChild(div)                    ///old method too inject java in html
+
+
+// var selectimagepath;
+
+// function selectedimage(src){
+//      var imagebg =document.getElementsByClassName('bg-image')
+//      for(var i = 0; i<imagebg.length; i++){
+//         imagebg[i].className = 'bg-image'
+//      }
+//      event.target.classList.add('selectedimage')
+//      selectimagepath = src
+// }
+
+
+// function submitpost(){
+//         var username = document.getElementById('username')
+//         var title = document.getElementById('title')
+//         var description = document.getElementById('desc')
+//         var currentdatetime = new Date().toUTCString
+//         var listingcontainer = document.querySelector('#listingContainer')
+//         if(username.ariaValueMax.trim() !== ''){
+//                 if(title.ariaValueMax.trim() !== ''){
+                 
+//                  if(description.ariaValueMax.trim() !== ''){
+                    
+//                 listingcontainer.innerHTML +=`<div class = "card my-4">
+                
+//                 <div class= "card-header d-flex justify-content-between">
+//                 <span>${username.value}</span>
+//                 <span>${currentdatetime}</span>
+                
+//                 </div>
+                
+//                  <div style = "background-image: url('${selectimagepath}')" class = "card-body" post-cardbody>
+//                  <h5 class = "card-title">${title.value}</h5>
+//                  <p class = "card-text">${description.value}</p>
+//                  </div>
+                        
+//                 </div>`
+
+// username.value = ''
+// title.value = ''
+// description.value = ""
 
 
 
+                         
+//                  } else{
+//                         alert('description is required')
+//                  }
 
+//                 }else{
+//                         alert('title is required')
+//                 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//         } else{
+//                 alert('username is required')
+//         }
+// }
 
 
 

@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(173, 201, 240, 1)
+    !important;
+}
+.resultWindow {
+    display: none;
+}
+
+.redText {
+    color: red;
+    font-weight: bold0;
+}
+
+.greenText {
+    color: green;
+    font-weight: 800;
+    color: rgb(red, green, blue);
+}
+

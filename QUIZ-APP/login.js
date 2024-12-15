@@ -56,7 +56,7 @@ signIn.addEventListener("click", () => {
       showConfirmButton: false,
     }).then(() => {
       // Redirect to the next page
-      window.location.href = "quiz.html";
+      window.location.href = "welcome.html";
     });
   }
 });

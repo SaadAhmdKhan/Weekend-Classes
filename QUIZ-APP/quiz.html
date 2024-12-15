@@ -12,59 +12,81 @@
 
 <body>
 
-    <div id="quizWindow">
-        <h4 id="question">Question will appear herse</h4>
-
-        <ul>
-            <li>
-                <input type="radio" id="option1" name="quizOption">
-                <label id="label1" for="option1">Some Option Here</label>
-            </li>
+    <div class="top-section">
+        <div class="logo"><span>Quiz</span>app</div>
+        <div class="version">V O.5 Beta</div>
+    </div>
+    <div class="quecontainer" class="main mt-5">
+        <div id="quizWindow">
+            <div class="border 2px solid mt-5 text-center">
+                <h4 id="question">Question will appear herse</h4>
+            </div>
+            <div class="border 2px solid mt-4 text-center">
+                <li>
+                    <input type="radio" id="option1" name="quizOption">
+                    <label id="label1" for="option1">Some Option Here</label>
+                </li>
+            </div>
             <br>
-            <li>
-                <input type="radio" id="option2" name="quizOption">
-                <label id="label2" for="option2">Some Option Here</label>
-            </li>
+            <div class="border 2px solid mt-2 text-center">
+                <li>
+                    <input type="radio" id="option2" name="quizOption">
+                    <label id="label2" for="option2">Some Option Here</label>
+                </li>
+            </div>
             <br>
-            <li>
-                <input type="radio" id="option3" name="quizOption">
-                <label id="label3" for="option3">Some Option Here</label>
-            </li>
+            <div class="border 2px solid mt-2 text-center">
+                <li>
+                    <input type="radio" id="option3" name="quizOption">
+                    <label id="label3" for="option3">Some Option Here</label>
+                </li>
+            </div>
             <br>
-            <li>
-                <input type="radio" id="option4" name="quizOption">
-                <label id="label4" for="option4">Some Option Here</label>
-            </li>
-            <br>
-        </ul>
-        <button onclick="next()" class="justify-content-center">Next</button>
+            <div class="border 2px solid mt-2 text-center">
+                <li>
+                    <input type="radio" id="option4" name="quizOption">
+                    <label id="label4" for="option4">Some Option Here</label>
+                </li>
+            </div>
+            <div>
+                <button class='button' class="btn-primary" onclick="next()">Next</button>
+            </div>
+        </div>
     </div>
 
-
-    <div class="resultWindow" id="resultWindow">
+    <div class="resultWindow mt-5" id="resultWindow">
 
         <h4 id="announce"></h4>
+        <hr>
 
         <h5 id="percentageShow"></h5>
+        <hr>
 
         <table border="2px solid">
             <tr>
                 <td> Total Questions</td>
+                <hr>
                 <td id="totalQue"> </td>
             </tr>
 
             <tr>
                 <td> Correct Questions</td>
+                <hr>
                 <td id="correctQue"> </td>
             </tr>
 
         </table>
+        <!-- <div class="modal-footer d-flex justify-content-center">
+            <button type="submit" class="btn btn-primary" id="sumitSignIn">Sign In</button>
+          </div> -->
     </div>
-
-
-
-
+    <script src="theme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
     <script src="quiz.js"></script>
+
 </body>
 
 </html>

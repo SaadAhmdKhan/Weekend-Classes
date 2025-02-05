@@ -1,92 +1,118 @@
-// var student = {
-//     name: 'ali',              // key ,   ---> properties , valuess
-//     qualification: 'bachelors',
+                  //        javaScript Advanced
+
+
+// var std = new StudentObj("ali" , "x" , "50%",  "solve" , false)
+// var std2 = new StudentObj("anas" , "ix" , "40%" , "solve" , true)
+
+
+// console.log(std2)
+
+
+// var stdInfo = {                               // get name is method too open the obj prototype in your browser
+//     firstName : 'Ali',
+//     getName: function() {
+//         return this.firstName
+//     }
+// }
+
+
+
+
+// var stdInfo2 = {
+//     firstName : 'Ali',
+//     getName: function() {
+//         return this.firstName
+//     }
+// }
+
+// console.log(stdInfo)
+// console.log(stdInfo2)
+
+
+
+
+
+                //   function params run by abc format    
+
+// function StudentObj(name , grade , per , question , result){            
+//     this.name = name
+//     this.grade = grade
+//     this.per = per
+//     this.question = question
+//     this.result = result
+// }
+// StudentObj.prototype.getName = function () {
+//     return this.name
+// }
+// var std2 = new StudentObj("anas" , "ix" , true )
+
+// console.log(std2)
+
+
+
+// console.log(std)                    // using obj var isn't work in the uper area off code  
+
+// var std = {
+//     name: 'First name' ,
+//     grade: 'X'
+// }
+
+// var keysofObject = Object.keys(std)
+// // console.log(keysofObject)                             // obj kee all keys lay ao
+// var refrence = keysofObject[0]                        // 0 index pay joh bee key  ha lay ao 
+// // console.log(refrence)
+// console.log(std[refrence])                             // obj kee key ha uska refrence uska name
+
+// std.name = "FirstName"
+
+// try {
+//     console.log(stdFirstName)
+// } catch (error) {
+//     console.log(error)
+// }
+// finally{
+//     console.log("Finally Console")
+// }
+// console.log(std)
+
+// var firstName = "saad"
+// firstName = "ai"
+
+// var firstName = "john"                // var is re declare
+// console.log(firstName)                // var is update 
+
+
+// Let variables can be updated but cannot re-declare in the same scope
+// let firstName = ""                // let is redclare
+// firstName = "doe"                   // let is update 
+// console.log(firstName)                  // let isn't declare
+
+// const firstName = ""                   //// const is const is nothing update not declare not redclare
+// // firstName = 'doe'
+// console.log(firstName)
+
+// arrow function
+
+// const displayname = () =>{
+//      return "hello"
+// }
+
+// var studentObj = {
+//     firstName: 'Sualeh' ,
+//     secondName: 'Farooq' ,
+//     occupation :'Developer' ,
 //     age: 24
 // }
 
-// student.name = 'anas'
-// delete student.qualification            //to delete the key property off obj
-// console.log(student)
-// student.grade = 'A'
-// console.log(student)                   //to add the key property off obj
+// var {firstName , secondName , ...Sualeh} = studentObj
 
-// var mobilephones = {
-//     samsung:{
-//         galaxy:{
-//             S24:{
-//              name: 'Galaxy S-24 Ultra',
-//              Price: 50000,
-//              PTA: true,
-//              SIM:'Dual',
-//              Color:['black' , 'blue' , 'gray' , 'white']
-//             },
-//         Zfold:{
-//             name: "Z-fold Pro",
-//             Make: 2024,
-//             Price: 40000,
-//             Pta: false,
-//             color:['blue' , 'sea grean']
-//         },
-//         },
-//         Aseries:{
-//            A12: {
-//             name: 'A24 Pro',
-//             Make: 2024,
-//             Color:['black' , 'White'],
-//            },
-//            A55:{
-//             name: 'A55 pro',
-//             Make: 2020,
-//             PTA: true,
-//             Price: 50000,
-//            }  
-//         }
-//     },
-//     Apple:{
-//         IPHONE:{
-//            IPHONE14:{
-//             name:'14 Pro Max',
-//             Price: 60000,
-//             PTA: false ,
-//             MAke: 2025,
-//         },
-//         IPHONE15:{
-//             name:'15 Pro Max',
-//             Price: 60000,
-//             PTA: false ,
-//             MAke: 2025,
-//         }
+// console.log(Sualeh)
+// console.log(studentObj)
 
-//         },
-//         IPAD:{
-//          IPADS1:{
-//             name:'S1 Pro Max',
-//             Price: 60000,
-//             PTA: false ,
-//             MAke: 2025,
-//          },
-//          IPADS2:{
-//             name:'S2 Pro Max',
-//             Price: 60000,
-//             PTA: false ,
-//             MAke: 2025,
-//          }
-//         }
-//     }
-// }
-// console.log(mobilephones)
 
-// var selectedcompany = 'samsung'
+// var name = "Ali"            //variable = > hoist top off the file
 
-// for (var companies in mobilephones){
-//     for(var variants in mobilephones[companies]){
-//         for(var model in mobilephones[companies][variants]){
-//           console.log(mobilephones[companies][variants][model])
-//         }
-//     }
-// }
-
-// console.log(mobilephones[selectedcompany])
+// let and const are'nt hoist
 
 // var watches = {
 //     ROLEX: {
@@ -189,7 +215,7 @@
 //       },
 //     },
   
-//     AUDI: {
+//     AUDEMARSPIGUET: {
 //       TamaraRalph: {
 //         name: "Tamara Ralph",
 //         price: "$2000",
@@ -388,323 +414,193 @@
 //     },
 //   };
 
-// var brandSelect = document.getElementById('brandSelect')
-// var productSelect = document.getElementById('productSelect')
-// var selectedbrand;
-// var selectedproduct;
+  
+// object destructureing
+ 
+//  object destructure  refrence will always bee key
+// let {...remaining} = watches
+// console.log(remaining)
 
-// for(var brands in watches){
-// brandSelect.innerHTML +=`
-//          <option value = '${brands}'> ${brands} </option>
-// `
-// }
+// let rolexWatches = watches
+// console.log(rolexWatches)
 
+// let rolexWatches = watches.ROLEX
 
-// function selectBrand(){
-//     selectedbrand = event.target.value
-//     productSelect.innerHTML = "";
-//     for(var products in watches [selectedbrand]){
-//         productSelect.innerHTML += `
-//         <option value='${watches[selectedbrand][products].name}' > ${watches[selectedbrand][products].name} </option>
-//         `
-    
-//     }
+// console.log(ROLEX)
 
-// }
+// console.log(remaining)
 
-// function selectProduct(){
-//     selectedproduct = event.target.value
-// }
+// let {GShock} = remaining
 
-// var productimage = document.getElementById('productimage')
+// console.log(GShock)
 
-// function searchProduct(){
-//     for(var keys in watches [selectedbrand]){
-//        if(watches[selectedbrand][keys].name === selectedproduct){
-//         console.log(watches[selectedbrand][keys])
-//         productimage.src = watches[selectedbrand][keys].img;
-//        }
-//     }
-//     console.log(
-//         `The Search Brand is ${selectedbrand} and the Product is ${selectedproduct}`
-//       );
-// }
+// console.log(SUALEH)
+
+// let {GShock} = SUALEH
+
+// console.log(GShock)
 
 
-
-// var userselected = 'AUDI';
-
-// // console.log(watches[userselected])   // watches.ROLEX
-// if(userselected === 'ROLEX'){
-//     console.log(watches.ROLEX)
-// } 
-// else if(userselected === 'AUDI'){
-//     console.log(watches.AUDI)
-// }
-// function addproduct(product){
-//     console.log(product)
-// }
-// var productsRow = document.getElementById('products_row')
-// for(var brands in watches){
-//     for(var products in watches [brands]){
-//         var watcheProduct = watches[brands][products]
-//         productsRow.innerHTML+= `
-//         <div>
-//         <h4>${watcheProduct.name}</h4>
-//         <img src = "${watcheProduct.img}" width = "50px" height = "50px">
-//         <button onclick = "addproduct(${watcheProduct})">Add To Cart</button>
-//         </div>
-//         `
-//     }
-// }
+// let array = ['Apple' , 'Mango' , 'Orange' , 'Banana']
+// let [first , saad , ali ] = array
+// console.log(saad)
+// console.log(ali)
 
 
-// Methods 
+// let userNumber = +prompt('Enter Any Number')
 
-// var student = {
-//     firsname: 'john', 
-//     lastname: 'doe',
-//     GetFullName : function(){
-//        return this.lastname
-//     } ,
-//     details : {
-//         firstname : 'ali',
-//         lastname:    'anas',
-//         // getfullname: function(){
-//         //     return this.firstname
-//         //     // console.log(this.firstname + "" + student.details.firstname)
-//         // }
-//     }
-// }
+// let myPromise = new Promise(function(resolve , reject) {
 
-// console.log(student.GetFullName())
+//     let baseUrl = 'https://dummyjson.com/users/5'
 
-// var Studentinfo = {
-//     batch8 : {
-//         123:{
-//             firstname: 'ali',
-//             lastname: 'anas',
-//         },
-//         324:{
-//             firstname: "john",
-//             lastname: "doe"
-//         },
-//     }
-// }
+//     let initializeRequest = new XMLHttpRequest
 
-// function studentinfo(firstname , lastname , passed){
-//     this.name = firstname,
-//     this.secondname = lastname,
-//     this.passed = passed
-// }
+//     initializeRequest.open('GET' , baseUrl)
 
-// var student = new studentinfo('ali' , 'anas' , true)
-// console.log(student)
-
-
-// var studentInfo = [
-//     {
-//         name: 'name here' ,
-//         score: 500 ,
-//     },
-//     {
-//         name: 'name here 2' ,
-//         score: 700 ,
-//     },
-//     {
-//         name: 'name here 3' ,
-//         score: 900 ,
-//     },
-
-// ]
-
-// console.log(studentInfo[0])    // index counting calculate
-
-/// Basic Quiz App Structure
-
-// var htmlQuiz = [
-//     {
-//         question: 'HTML stands for ?',
-//         option1: 'Hyper Text',
-//         option2: "Mark Up" ,
-//         option3:  "Hyper",
-//         option4:  "Hyper Text Markup Language",
-//         answer:   "Hyper Text Markup Language"
-//     },
-//     {
-//         question: 'Which Element used to bold text in HTML?' ,
-//         option1: 'img' ,
-//         option2: 'h1' , 
-//         option3: 'strong' , 
-//         option4: 'p' , 
-//         answer: 'strong'
-//     },
-//     {
-//         question: 'Which Element used for Image in HTML?' ,
-//         option1: 'span' ,
-//         option2: 'div' , 
-//         option3: 'image' , 
-//         option4: 'img' , 
-//         answer: 'img'
-//     },
-// ]
-
-// var questioncontainer = document.getElementById("question_container")
-
-
-// var score = 0
-// var currentquestion = 0
-
-
-// function renderQuestion(){
-//     if(!htmlQuiz[currentquestion]){
-//         console.log('Score Is' + score)
-//         return
-//     }
-//     var questionoption = document.getElementsByName('option')
-//     for(var i = 0; i<questionoption.length; i ++)
-//         {
-//             if(questionoption[i].checked){
-//                 console.log(questionoption[i].value)
-//                 console.log(htmlQuiz[currentquestion - 1].answer)
-//                 if(questionoption[i].value === htmlQuiz[currentquestion].answer){
-//                     score ++
-//                 }
-//             }
+//     initializeRequest.onload = function() {
+//         if(initializeRequest.status === 200) {
+//             resolve(initializeRequest.response)
+//         } else {
+//             reject('Something went wrong')
 //         }
-
-
-//         questioncontainer.innerHTML`
-        
-//         <div>
-//         <h3>${htmlQuiz[currentquestion].question}</h3>
-
-//         <div>
-//             <label for="">
-//                 <input type="radio" name="option" value='${htmlQuiz[currentquestion].option1}' >
-//                 ${htmlQuiz[currentquestion].option1}
-//             </label>
-//         </div>
-//          <div>
-//             <label for="">
-//                 <input type="radio" name="option" value='${htmlQuiz[currentquestion].option2}' >
-//                 ${htmlQuiz[currentquestion].option2}
-//             </label>
-//         </div>
-//          <div>
-//             <label for="">
-//                 <input type="radio" name="option" value='${htmlQuiz[currentquestion].option3}' >
-//                 ${htmlQuiz[currentquestion].option3}
-//             </label>
-//         </div>
-//          <div>
-//             <label for="">
-//                 <input type="radio" name="option" value='${htmlQuiz[currentquestion].option4}' >
-//                 ${htmlQuiz[currentquestion].option4}
-//             </label>
-//         </div>
-
-
-//     </div>
-        
-//         `
-
-//         currentquestion++
-// }
-
-// renderQuestion()
-
-
-// while do while loops
-
-// for(var i = 0; i < 5; i ++){
-//     console.log(i)
-// }
-
-
-// will not run , if condition not match in once
-// var i = 0
-
-// while (i < 3){
-//     console.log(i)
-//     i ++
-// }
-
-// var i = 0
-
-// while (i<2){
-//     console.log(i)
-//     i ++
-// }
-
-// var j = 0
-
-// while(j<4){
-//     console.log(j)
-//     j++
-// }
-
-
-// run atleast  once even if the condition false at first time
-
-// var i = 0
-// do {
-//     console.log('Hello World')
-//     i++
-// } while(i<=0)
-
-// var stdobj = {name: 'sualeh' , class: 'x'}
-
-// function savename(){
-//     localStorage.setItem('name','saad')
-//     localStorage.setItem(name, {name: 'sualeh' , class: 'x'})
-
-//     var stdinfo = JSON.stringify(stdobj)
-//     localStorage.setItem('info' , stdinfo)
-// }
-
-// function displayname(){
-//     var stdinfo = localStorage.getItem('info')
-//     console.log(stdinfo)
-//     console.log(typeof stdinfo)
-//     var stdinfoobject = JSON.parse(stdinfo)
-//     console.log(stdinfoobject)
-//     console.log(typeof stdinfoobject)
-// }
-
-
-// function darkmode(){
-//     localStorage.setItem('mode' , 'dark')
-//     checkMode()
-// }
-
-// function lightmode(){
-//     localStorage.setItem('mode' , 'light')
-//     checkMode()
-// }
-
-// var body = document.getElementById('body')
-
-// function checkMode(){
-//     var currentmode = localStorage.getItem('mode')
-//     console.log(body)
-//     if(currentmode === 'dark'){
-//         body.className = "darkBody"
 //     }
-//     else{
-//         body.className = 'lightBody'
+
+
+//     initializeRequest.send()
+//     if(userNumber > 20) {
+//         resolve(`Number is Greater`)
+//     } else {
+//         reject(`Number is not Greater`)
+//     }
+// })
+
+
+// let customUserData ;
+
+// myPromise.then((data)=>{
+//     customUserData  = JSON.parse(data)
+// }).then(()=>{
+//     showUserData(customUserData)
+// }).catch((error)=>{
+//     console.log(error)
+// })
+
+
+// function showUserData(userData){
+//     console.log(userData)
+
+//     let userContainer = document.getElementById('userContainer')
+
+//     userContainer.innerHTML = `
+    
+//     <h4>  ${userData.firstName}  ${userData.lastName} </h4>
+
+//     <p> Gender:  ${userData.gender} </p>
+
+//     <br />
+
+//     <img src='${userData.image}'  width={200} height={200} alt="userImage" />
+
+//     `
+
+// }
+
+
+// let customData ;
+
+// function showData(data) {
+//     console.log(data)
+// }
+
+// myPromise.then(function(data){
+//     customData = data
+// }).then(()=>{
+//     showData(customData)
+// }).catch((error)=>{
+//     console.log(error)
+// })
+
+
+
+
+
+
+// async function getData() {
+//     console.log('Fetching Student List')
+    
+//     let batch15StdPromise = new Promise((resolve , reject)=>{
+//             setTimeout(()=>{
+//                 resolve(50)
+//             } , 5000)
+//     })
+
+
+//     let batch16StdPromise = new Promise((resolve , reject)=>{
+//         setTimeout(() => {
+//             resolve(100)
+//         }, 10000);
+//     })
+
+
+
+//     console.log('Fetching Batch 15 List')
+//     let batch15Data = await batch15StdPromise
+
+//     console.log(`Fetched Result of Batch 15 =>> ${batch15Data}`)
+
+//     console.log('Fetching Batch 16 List')
+
+//     let batch16Data = await batch16StdPromise
+
+//     console.log(`Fetched Result of Batch 16 =>> ${batch16Data}`)
+
+// }
+
+// getData()
+
+
+
+// async function getData(data) {
+//     try {
+//         let userResponse = await fetch('https://dummyjson.com/users')
+//         let responseJson = await  userResponse.json()
+//         showData(responseJson)
+//     } catch (error) {
+//         console.log(error)
 //     }
 // }
 
-// function setbydefault(){
-//      var checkmodestate = localStorage.getItem('mode')
-//      if(checkmodestate === null){
-//         localStorage.setItem('mode' , 'light')
-//         checkMode()
-//      }else{
-//         checkMode()
-//      }
+
+// getData()
+
+// function showData(data) {
+// console.log(data)
 // }
 
-// window.onload = setbydefault()
+
+// var obj = {
+//     name: "sualeh",
+//     age: 24
+// }
+
+// const {myname} = obj
+// console.log(myname)
+
+// const fruits =['apple' , 'mango' , 'banana' , 'orange']     //it will erase only first loop in arr
+// const[orange, ...remainingFruits] = fruits
+// console.log(remainingFruits)
+
+// terneray operaters
+
+// let userInp = document.getElementById('userNum')
+let result = ''
+// if( number > 20) {
+//     result = 'Greater than 20'
+//  } else {
+//     result = 'Less Than 20'
+//  }
+
+ console.log(result)
+ let number = +prompt('Enter number')
+let result = number > 20 && number < 50 ?  'Greater'  :  number < 10 ? 'Less than' : 'Less'
 

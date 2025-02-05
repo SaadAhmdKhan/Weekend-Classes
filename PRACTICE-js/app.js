@@ -1,4 +1,4 @@
-                                                          // ALERT
+// ALERT
 // alert("Congratulations \n\n\n\n\n\n\n\n\n\n\n You Have passed the css quiz")
 // alert('Congratulations \n\n\n\n\n\n\n You HAve Passed The Css quiz')
 // alert('Congratulations \n\n\n\n\n\n\n\n\n\n You Have Passed The Css Quiz')
@@ -90,7 +90,7 @@
 // var a = 5
 //     b = 10
 // console.log(--b +a - ++a + b++)
-    
+
 // var num = 2
 //     num1 = 2
 //     num2 = 10
@@ -98,10 +98,10 @@
 //     alert(result)
 
 
-                                          // --num == pre decrement
-                                          // num-- == post decrement
-                                          // ++num == pre increment
-                                          // num++ == post increment
+// --num == pre decrement
+// num-- == post decrement
+// ++num == pre increment
+// num++ == post increment
 
 
 // var firstname = 'saad'
@@ -117,7 +117,7 @@
 
 // var num = 5
 //     num1 = 10
- 
+
 // var celsius = 25
 // var celsiusintoferinheit = (celsius * 9 / 5) + 32
 // console.log(celsiusintoferinheit)   
@@ -162,14 +162,14 @@
 //               <td> ${subjectonemarks} </td>
 //               <td> ${subjectoneper} </td>
 //               </tr>
-             
+
 //              <tr>
 //              <td> ${subjecttwo} </td>
 //              <td> ${eachsubtotal} </td>
 //              <td> ${subjecttwomarks} </td>
 //              <td> ${subjecttwoper} </td>
 //              </tr>
-             
+
 //              <tr> 
 //              <td> ${subjectthree} </td>
 //              <td> ${eachsubtotal} </td>
@@ -182,8 +182,8 @@
 //                           <th> ${totalobtainedmarks} </th>
 //                           <th> ${finalper}% </th>
 //                 </tr>
-             
-             
+
+
 //              </table>
 
 
@@ -213,7 +213,7 @@
 
 
 // var num = 20
-    // num1 = "20"                         check the bolean value
+// num1 = "20"                         check the bolean value
 // alert(num === num1)
 
 // var userage = +prompt("Enter Your Age")
@@ -275,7 +275,7 @@
 // var a = 2
 //     b = 3
 //     result = --a + ++b + b++ + --b
-        //     1  +  4 + 4 +     4
+//     1  +  4 + 4 +     4
 
 // alert(result)
 
@@ -292,22 +292,22 @@
 // document.write(`
 //         <table>
 //         <tr> 
-        
+
 //         <th> NAme  </th>
 //         <th> Rollnum </th>
 //         <th> Percentage </th>
 //         </tr>        
-        
+
 
 //         <tr> 
 //         <th> ${username} </th>
 //         <th> ${rollno} </th>
 //         <th> ${percentage} </th> 
 //         </tr>
-        
-        
-        
-        
+
+
+
+
 //  </table>
 
 // `)    
@@ -394,7 +394,7 @@
 //     b = 2
 //     // result = b++ assitice               postincrement
 //     // result = b-- assitice               postincrement
-        //result = --b one num less           predecrement
+//result = --b one num less           predecrement
 //     // result = ++b one num add            preincrement
 
 // var a = 2
@@ -519,7 +519,7 @@
 
 // var loginemail = prompt('Please Enter Email Too Login')
 //     loginpassword = prompt("Enter Password Off Your Account")
-    
+
 // if(loginemail === registeremail && loginpassword === registerpassword){
 //         alert('Successful Login')
 // }
@@ -557,7 +557,7 @@
 //                 else{
 //                   alert('Your Reenter password is incorrect')
 //                 }
-     
+
 //     }else{
 //         alert('invalid password')
 //     }
@@ -681,7 +681,7 @@
 // alert(newnum)
 
 
-                                                  // 28-09-2024
+// 28-09-2024
 
 // var person = 'sualeh'
 // var arr = ['ali' , 'john' , 'sualeh' , 'anas']
@@ -721,12 +721,12 @@
 // console.log(returnVal) 
 // console.log(student)
 
-                    
 
-       /*      /*//*/*///*///*/      //delete any element from any index
-       /*      /*//*/*///*///*/      // add any element at any index
-       /*      /*//*/*///*///*/      // update any element from any index 
-                                    
+
+/*      /*//*/*///*///*/      //delete any element from any index
+/*      /*//*/*///*///*/      // add any element at any index
+/*      /*//*/*///*///*/      // update any element from any index 
+
 // var students = ['saad' , 'wahab' , 'ali' , 'hassan' , 'hamza' , 'asad' , 'imran']
 // students.splice(2 , 0 , 'sirsualeh') // Not Delete Any Element and Add sir at Second Index
 // console.log(students)
@@ -906,7 +906,7 @@
 //          console.log('milgya')
 //          break;
 //         } 
-        
+
 //         else{
 //                 console.log('nhi mila')   }
 // }
@@ -958,7 +958,7 @@
 //         console.log('Found It')
 //     } else {
 //         console.log('Not Found !')
-    
+
 //     }
 
 // For Loops Nested nested array
@@ -1098,11 +1098,11 @@
 // var arr = ['cake' , 'pineapple' , 'Donut']
 // for (var i = 0; i<arr.length; i ++){
 //         if(arr [i] === "Donut" ){
-         
+
 //                 console.log("Items Is Available On The List")
 //                 break;
 //         }
-        
+
 //         else{console.log('The Item Is Not Available On The List')}
 // }
 
@@ -1138,7 +1138,7 @@
 // }else{
 //             alert('Product Added to the cart sucessfully')
 //         }
-          
+
 // // var firstName = 'John Doe'                  // char code
 // // console.log(firstName.charAt(7))
 // var text = "There Is A Book Related To The World War II , World War II"
@@ -1198,7 +1198,7 @@
 // console.log(typeof(num2))
 // console.log(num2)
 
-                                                //convert string into number
+//convert string into number
 // Will Keep All the Decimal Places 
 // var num1 = '5.6'
 // console.log(typeof(num1))
@@ -1263,8 +1263,8 @@
 // console.log(month[currentmonth])
 
 
- // var todayDate = new Date()  
- // console.log(todayDate)
+// var todayDate = new Date()  
+// console.log(todayDate)
 
 // //28-Feb-2025
 //     var todayDate  = new Date('13 March , 2005')
@@ -1275,7 +1275,7 @@
 // var difference = firstramadan - today
 // var daycalculate = difference / (1000 * 60 * 60 * 24 * 30)
 // console.log(Math.round(daycalculate))
- 
+
 
 // Normal Function 
 
@@ -1337,7 +1337,7 @@
 // console.log(differencedate)
 
 // console.log(sumofftwo(20,20))    //hoisting
- 
+
 // var org ;
 
 
@@ -1444,9 +1444,9 @@
 // function addpara() {
 //         var mainDiv = document.querySelector('#main')
 //         mainDiv.innerHTML = `
-    
+
 //     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repudiandae maxime facilis aliquid doloribus, culpa ducimus voluptas voluptatibus laboriosam, rem sunt consectetur harum eaque quisquam repellat sapiente vero reprehenderit architecto. </p>
-    
+
 //         <ul>
 //                 <li>  HTML </li>
 //                  <li>  CSS </li>
@@ -1457,7 +1457,7 @@
 // function submitform(){
 //         var firstname = document.getElementById('FirstName')
 //         var Secondname = document.getElementById('SecondName')
-        
+
 //         console.log(`First Name ${firstname.value}`)
 //         console.log(`Second Name ${Secondname.value}`)
 // }
@@ -1485,13 +1485,13 @@
 
 //         console.log("The Selected Hobbies Are")
 //         console.log(hobbiesarr)
-    
+
 //         for(var i = 0; i<gender.length; i++){
 //             if(gender[i].checked){
 //                 genderselection = gender[i].value;
 //             }
 //         }
-       
+
 //         console.log(genderselection)
 // }
 
@@ -1564,22 +1564,22 @@
 //         var listingcontainer = document.querySelector('#listingContainer')
 //         if(username.ariaValueMax.trim() !== ''){
 //                 if(title.ariaValueMax.trim() !== ''){
-                 
+
 //                  if(description.ariaValueMax.trim() !== ''){
-                    
+
 //                 listingcontainer.innerHTML +=`<div class = "card my-4">
-                
+
 //                 <div class= "card-header d-flex justify-content-between">
 //                 <span>${username.value}</span>
 //                 <span>${currentdatetime}</span>
-                
+
 //                 </div>
-                
+
 //                  <div style = "background-image: url('${selectimagepath}')" class = "card-body" post-cardbody>
 //                  <h5 class = "card-title">${title.value}</h5>
 //                  <p class = "card-text">${description.value}</p>
 //                  </div>
-                        
+
 //                 </div>`
 
 // username.value = ''
@@ -1588,7 +1588,7 @@
 
 
 
-                         
+
 //                  } else{
 //                         alert('description is required')
 //                  }
@@ -1610,7 +1610,7 @@
 
 
 
-                                            // MATH EXPRESSIONS FAMILIAR OPERATERS
+// MATH EXPRESSIONS FAMILIAR OPERATERS
 
 // var popularnum = 4
 // var popularnum = 2+2
@@ -1639,7 +1639,7 @@
 // var whatsleftover = 9 % 3
 // alert(whatsleftover)
 
-                                        // MATH EXPRESSIONS UNFAMILIAR OPERATERS  
+// MATH EXPRESSIONS UNFAMILIAR OPERATERS  
 
 // var num = 1
 // var newnum = num++
@@ -1657,8 +1657,8 @@
 // var newnum = --num
 // alert(newnum)
 
-                                       
-                                                // ELIMINATING AMBAGUITY CH # 07
+
+// ELIMINATING AMBAGUITY CH # 07
 
 // var totalcost = (1 + 3) * 4
 // alert(totalcost)
@@ -1674,7 +1674,7 @@
 // var resultoffcomputation = 2 * 4 * (4+2)
 // alert(resultoffcomputation)
 
-                                  // The solution is more parentheses.
+// The solution is more parentheses.
 // var resultoffcomputation = ((2 * 4) * 4) + 2
 // alert(resultoffcomputation)
 
@@ -1683,7 +1683,7 @@
 // alert(resultoffcomputation)
 
 
-                                            //  CONCATENATING TEXT STRING CH # 08
+//  CONCATENATING TEXT STRING CH # 08
 
 // var username = "Susan"
 // alert("Thanks " + "Susan " + "!")
@@ -1704,7 +1704,7 @@
 
 
 
-                                                    // PROMPTS CH#09
+// PROMPTS CH#09
 
 // var specs =prompt("Your Species?" "Human")
 // alert(specs)
@@ -1717,7 +1717,7 @@
 
 
 
-                                                  // IF STATEMENTS 
+// IF STATEMENTS 
 
 
 // var x = prompt("Where Does The Pop live?")
@@ -1734,5 +1734,91 @@
 //     alert("correct");
 // }
 
+// function alertsuccess(){
+//         Swal.fire({
+//                 title: "Invalid Password",
+//                 text: "Password can't be empty",
+//                 icon: "error",
+//               });
+// }
+
+// function alerterror(){
+
+// }
 
 
+// var singupName = document.getElementById('signupName')
+// var signupEmail = document.getElementById('signupEmail')
+// var signupPhone = document.getElementById('signupPhone')
+// var signupPass = document.getElementById('signupPass')
+
+// var emailRegex = /^\S+@\S+\.\S+$/;
+
+// var nameRegex = /^[a-zA-Z]+$/;
+
+// var numberRegex = /^((\+92)?(0092)?(92)?(0)?)(3)([0-9]{9})$/;
+
+// function userSignUp() {
+//         if (nameRegex.test(singupName.value)) {
+//                 if (emailRegex.test(signupEmail.value)) {
+//                         if (numberRegex.test(signupPhone.value)) {
+//                                 if (signupPass.value.trim !== "") {
+//                                         var userinfo = {
+//                                                 name: singupName.value,
+//                                                 email: signupEmail.value,
+//                                                 phone: signupPhone.value,
+//                                                 password: signupPass.value
+//                                         }
+//                                         Swal.fire({
+//                                                 title: "Registered",
+//                                                 text: "Account Registered Succesfully",
+//                                                 icon: "success",
+//                                         });
+
+//                                         localStorage.setItem('userinfo', JSON.stringify(userinfo))
+//                                         setTimeout(function () {
+//                                                 window.location.href = 'login.html'
+//                                         }, 2000);
+//                                 }
+//                                 else {
+//                                         Swal.fire({
+//                                                 title: "Invalid Password",
+//                                                 text: "Password can't be empty",
+//                                                 icon: "error",
+//                                         });
+//                                 }
+//                         } else {
+//                                 Swal.fire({
+//                                         title: "Invalid Phone Number",
+//                                         text: "Please enter valid Phone Number",
+//                                         icon: "error",
+//                                 });
+//                         }
+
+//                 } else {
+//                         Swal.fire({
+//                                 title: "Invalid Email",
+//                                 text: "Please enter valid email address",
+//                                 icon: "error",
+//                         });
+//                 }
+
+//         }
+
+//         else {
+//                 Swal.fire({
+//                         title: "Invalid Name",
+//                         text: "Please enter name",
+//                         icon: "error",
+//                 });
+//         }
+// }
+
+
+
+// window.onload = function() {
+//         var userLoginCheck = localStorage.getItem('loginUser')
+//         if(userLoginCheck == 'true') {
+//             window.location.href = 'dashboard.html'
+//         }
+//     }

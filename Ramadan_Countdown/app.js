@@ -1,17 +1,18 @@
 function countdown() {
     setInterval(function () {
-        var ramadanDate = new Date('28 Feb , 2025');
+        var ramadanDate = new Date('01 March , 2025');
         var todayDate = new Date();
         var ramadan = ramadanDate.getTime() - todayDate.getTime()
-            Dayscounter = ramadan / (1000 * 60 * 60 * 24)
-            Hourscounter = ramadan % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)
-            Minutescounter = ramadan % (1000 * 60 * 60) / (1000 * 60)
-            Secondcounter = ramadan % (1000 * 60) / (1000)
+            daysCounter = ramadan / (1000 * 60 * 60 * 24)
+            hoursCounter = ramadan % (1000 * 60 * 60 * 24) / (1000 * 60 * 60)
+            minutesCounter = ramadan % (1000 * 60 * 60) / (1000 * 60)
+            secondCounter = ramadan % (1000 * 60) / (1000)
+            
 
-        document.getElementById("days").innerHTML = `<span>${Math.floor(Dayscounter)}</span>`
-        document.getElementById("hours").innerHTML = `<span>${Math.floor(Hourscounter)}</span>`
-        document.getElementById("minutes").innerHTML = `<span>${Math.floor(Minutescounter)}</span>`
-        document.getElementById("second").innerHTML=`<span>${Math.floor(Secondcounter)}</span>`
+        document.getElementById("days").innerHTML = `<span>${Math.floor(daysCounter)}</span>`
+        document.getElementById("hours").innerHTML = `<span>${Math.floor(hoursCounter)}</span>`
+        document.getElementById("minutes").innerHTML = `<span>${Math.floor(minutesCounter)}</span>`
+        document.getElementById("second").innerHTML=`<span>${Math.floor(secondCounter)}</span>`
     }, 1000)
 
 }

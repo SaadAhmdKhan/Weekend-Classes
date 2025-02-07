@@ -1,0 +1,66 @@
+body {
+    background-color: #ececec !important;
+}
+.main-container{
+    background-color: blue !important;
+    width: 50%;
+    height: 200% !important;
+    justify-content: center !important;
+    margin-top: 20%;
+}
+
+#mainheader{
+    background-color: #ececec !important;
+}
+
+.nav-menu-items {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.signup-btn {
+    color: #007E85;
+    background-color: transparent;
+    border: none;
+    text-wrap: nowrap;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.Support-section{
+    margin-left: 10px;
+}
+
+.footer-section{
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+.pass-div{
+    display: flex;
+    align-items: flex-end;
+}
+
+#complex{
+    height: 300px;
+}
+#long{
+    height: 300px;
+}
+#unique{
+    height: 300px;
+}
+
+#nav-fonts{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#btn-copy{
+    background-color: blue;
+    border-radius: 5px;
+    color: black;
+}
